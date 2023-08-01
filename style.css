@@ -2,5 +2,86 @@ body{
     background-color: #0f0e17;
     font-family: Verdana;
     font-weight: normal;
+    color: #fffffe;
+    text-align: center;
+}
+header .container{
+  
+      height: 100%;
+  }
+  
+
+  header .container img{
+    width: 100px;
+    height: 100px;
+  
+  
+    
+    
     
 }
+
+  
+  
+  nav{
+   display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    margin: 20px;
+    background-color: #0f0e17;
+  }
+  
+  nav ul {
+    margin: 20px;
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f0e17;
+    list-style: none;
+
+  }
+  
+ 
+  nav li a {
+    margin: 10px;
+    background-color: #0f0e17;
+    list-style: none;
+    text-transform : capitalize;
+    color: #fffffe;
+  }
+  
+  section{
+    background-color: #fffffe;
+   max-width:790px;
+  margin: 0 auto;
+
+  }
+  
+  
+  h2{
+    color: #ff8906;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    text-transform : capitalize;
+    margin-top: 30px;
+  }
+  
+  p{
+    color:#0f0e17;
+    margin: 10px;
+  }
+  
+  footer{
+   background-color: #e53170 ;
+   width: 100%;
+   text-transform : capitalize;
+   color: #fffffe;
+   height: 50px;
+   margin-top: 200px;
+  margin-bottom: 0%;
+   
+   
+   
+  }
+  
